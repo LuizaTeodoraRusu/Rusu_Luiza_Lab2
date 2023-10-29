@@ -17,5 +17,7 @@ namespace Rusu_Luiza_Lab2.Data
         public DbSet<Rusu_Luiza_Lab2.Models.Book> Book { get; set; } = default!;
 
         public DbSet<Rusu_Luiza_Lab2.Models.Publisher>? Publisher { get; set; }
+
+        public DbSet<Rusu_Luiza_Lab2.Models.Category>? Category { get; set; }
     }
 }
